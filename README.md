@@ -1,10 +1,12 @@
 ![EurekaServer](https://github.com/user-attachments/assets/ac75783c-e525-49e7-8806-b214b2139f32)
 
-# 모니터링 서버
-Eureka Server는 마이크로서비스 서버들을 모니터링하는 서버입니다.
-
 # 클라이언트 등록
 모든 마이크로서비스의 서버와 GateWay Server는 Eureka Client를 등록 하여야 합니다.
+
+
+# 모니터링 서버
+Eureka Server는 등록된 Eureka Client들을 모니터링하는 서버이고 
+30초 주기마다 Eureka Client들은 서버 상태를 Eureka Server에 보고합니다.
 
 # 사용 이유
 
