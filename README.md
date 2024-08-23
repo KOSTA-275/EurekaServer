@@ -1,3 +1,4 @@
+![EurekaServer](https://github.com/user-attachments/assets/ac75783c-e525-49e7-8806-b214b2139f32)
 Eureka Server는 마이크로서비스 서버들을 모니터링하는 서버입니다.
 
 모든 마이크로서비스의 서버는 Eureka Client를 등록 하여야 합니다.
