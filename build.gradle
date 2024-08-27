@@ -46,3 +46,12 @@ dependencyManagement {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+jar {
+	manifest {
+		attributes 'Main-Class': 'com.dowadream.gateway.GatewayApplication.MainClass'
+	}
+	enabled = false
+}
+bootJar {
+	duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
