@@ -8,6 +8,20 @@
 Eureka Server는 등록된 Eureka Client들을 모니터링하는 서버이고 
 30초 주기마다 Eureka Client들은 서버 상태를 Eureka Server에 보고합니다.
 
+# 필수 의존성
+빌드도구 : Gradle
+<br>
+유레카 서버
+<br>
+유레카 클라이언트
+dependencies {
+	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server'
+}
+<br>
+dependencies {
+	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+}
+
 # 사용 이유
 
 GateWay Server는 들어온 요청을 알맞은 마이크로서비스 서버로 라우팅해주는 역할을 합니다.
