@@ -13,10 +13,11 @@ Eureka Server는 등록된 Eureka Client들을 모니터링하는 서버이고
 <br>
 유레카 서버
 <br>
-유레카 클라이언트
 dependencies {
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server'
 }
+<br>
+유레카 클라이언트
 <br>
 dependencies {
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
